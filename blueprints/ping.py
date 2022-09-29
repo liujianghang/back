@@ -1,6 +1,7 @@
 from flask import Blueprint
 from flask import jsonify
 
+
 bp = Blueprint("ping", __name__, url_prefix="/ping")
 
 
